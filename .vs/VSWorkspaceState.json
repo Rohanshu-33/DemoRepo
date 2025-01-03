@@ -1,4 +1,11 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\WebDemoBackend-1",
+    "\\WebDemoBackend-1\\Controllers",
+    "\\WebDemoBackend-1\\Helpers",
+    "\\WebDemoBackend-1\\Models"
+  ],
+  "SelectedNode": "\\WebDemoBackend-1\\Controllers\\BookIssueController.cs",
   "PreviewInSolutionExplorer": false
 }

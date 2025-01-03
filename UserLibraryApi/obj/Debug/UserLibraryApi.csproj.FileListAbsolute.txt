@@ -1,0 +1,2 @@
+F:\Rohanshu\DemoBackend-1\UserLibraryApi\obj\Debug\UserLibraryApi.csproj.AssemblyReference.cache
+F:\Rohanshu\DemoBackend-1\UserLibraryApi\obj\Debug\UserLibraryApi.csproj.CoreCompileInputs.cache
