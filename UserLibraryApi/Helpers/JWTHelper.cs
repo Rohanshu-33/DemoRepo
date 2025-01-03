@@ -8,7 +8,7 @@ namespace UserLibraryApi.Helpers
 {
     public class JWTHelper
     {
-        private static readonly string secretKey = "RohanshuBanodhaDemoWebApi290903";
+        private static readonly string secretKey = "RohanshuBanodhaDemoWebApi290903VAPIGUJARATINDIA";
 
         // Generate JWT Token for username
         public static string GenerateToken(string username)

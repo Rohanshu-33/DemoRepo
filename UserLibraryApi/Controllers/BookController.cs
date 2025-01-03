@@ -6,6 +6,8 @@ using System.Net.Http;
 using System.Web.Http;
 using UserLibraryApi.Models;
 using UserLibraryApi.Helpers;
+using System.Diagnostics;
+using System.Web.Http.Cors;
 
 namespace UserLibraryApi.Controllers
 {
@@ -23,7 +25,7 @@ namespace UserLibraryApi.Controllers
             Books.Add("1984", new Book { BookId = 2, Title = "1984", Price = 15.99f });
             Books.Add("To Kill a Mockingbird", new Book { BookId = 3, Title = "To Kill a Mockingbird", Price = 12.49f });
             Books.Add("The Catcher in the Rye", new Book { BookId = 4, Title = "The Catcher in the Rye", Price = 14.99f });
-            Books.Add("Moby Dick", new Book { BookId = 5, Title = "Moby Dick", Price = 18.99f });
+            Books.Add("Moby Kick", new Book { BookId = 5, Title = "Moby Kick", Price = 18.99f });
         }
 
         // POST: Add a new book to the list.
@@ -53,6 +55,7 @@ namespace UserLibraryApi.Controllers
         // GET: Get a list of books present in the library (sorted by title).
         [HttpGet]
         [Route("books")]
+        [EnableCors(origins: "www.google.com", headers: "*", methods: "GET")]
         public IHttpActionResult GetAllBooks()
         {
             try
@@ -69,7 +72,7 @@ namespace UserLibraryApi.Controllers
 
         // GET: Get books for a user by their JWT token.
         [HttpGet]
-        [Route("books/getuserbooks")]
+        [Route("user/getuserbooks")]
         public IHttpActionResult GetBooksByUser()
         {
             try
@@ -77,21 +80,20 @@ namespace UserLibraryApi.Controllers
                 // Retrieve the JWT token from the headers (for example, "Bearer <JWT_TOKEN>")
                 var token = Request.Headers.Authorization?.Parameter;
 
-                if (string.IsNullOrEmpty(token))
+                if (token == null)
                 {
                     return Unauthorized();
                 }
 
                 string usrname = JWTHelper.ExtractUsernameFromToken(token);
-                bool flag = UserController.Users.Exists(e => e.Username == usrname);
-
-                if (flag)
+                User usr = UserController.Users.FirstOrDefault(e => e.Username == usrname);
+                if (usr != null)
                 {
-                    return Ok(Books.Values.ToList());
+                    return Ok(new {Message= $"Found for {usr.Username}", Books = usr.purchasedBooks});
                 }
 
                 // If the user is not authorized, return an empty response or error.
-                return Unauthorized();
+                return NotFound();
             }
             catch (Exception ex)
             {
@@ -107,7 +109,22 @@ namespace UserLibraryApi.Controllers
             {
                 if (Books.TryGetValue(title, out Book book))
                 {
-                    return Ok(new { Message = "Book purchased successfully", PurchasedBook = book });
+                    // Retrieve the JWT token from the headers (for example, "Bearer <JWT_TOKEN>")
+                    var token = Request.Headers.Authorization?.Parameter;
+
+                    if (token == null)
+                    {
+                        return Unauthorized();
+                    }
+
+                    string usrname = JWTHelper.ExtractUsernameFromToken(token);
+                    User usr = UserController.Users.FirstOrDefault(e => e.Username == usrname);
+                    if(usr != null)
+                    {
+                        usr.purchasedBooks.Add(book);
+                        return Ok(new { Message = $"Book purchased successfully by {usrname}", PurchasedBook = book });
+                    }
+                    return NotFound();
                 }
                 else
                 {
