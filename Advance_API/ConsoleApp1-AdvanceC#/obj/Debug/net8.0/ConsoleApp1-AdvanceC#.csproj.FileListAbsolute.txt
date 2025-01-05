@@ -1,0 +1,15 @@
+D:\RKIT - Training\Week-10-Backend-2\DemoRepo\Advance_API\ConsoleApp1-AdvanceC#\bin\Debug\net8.0\ConsoleApp1-AdvanceC#.exe
+D:\RKIT - Training\Week-10-Backend-2\DemoRepo\Advance_API\ConsoleApp1-AdvanceC#\bin\Debug\net8.0\ConsoleApp1-AdvanceC#.deps.json
+D:\RKIT - Training\Week-10-Backend-2\DemoRepo\Advance_API\ConsoleApp1-AdvanceC#\bin\Debug\net8.0\ConsoleApp1-AdvanceC#.runtimeconfig.json
+D:\RKIT - Training\Week-10-Backend-2\DemoRepo\Advance_API\ConsoleApp1-AdvanceC#\bin\Debug\net8.0\ConsoleApp1-AdvanceC#.dll
+D:\RKIT - Training\Week-10-Backend-2\DemoRepo\Advance_API\ConsoleApp1-AdvanceC#\bin\Debug\net8.0\ConsoleApp1-AdvanceC#.pdb
+D:\RKIT - Training\Week-10-Backend-2\DemoRepo\Advance_API\ConsoleApp1-AdvanceC#\obj\Debug\net8.0\ConsoleApp1-AdvanceC#.GeneratedMSBuildEditorConfig.editorconfig
+D:\RKIT - Training\Week-10-Backend-2\DemoRepo\Advance_API\ConsoleApp1-AdvanceC#\obj\Debug\net8.0\ConsoleApp1-AdvanceC#.AssemblyInfoInputs.cache
+D:\RKIT - Training\Week-10-Backend-2\DemoRepo\Advance_API\ConsoleApp1-AdvanceC#\obj\Debug\net8.0\ConsoleApp1-AdvanceC#.AssemblyInfo.cs
+D:\RKIT - Training\Week-10-Backend-2\DemoRepo\Advance_API\ConsoleApp1-AdvanceC#\obj\Debug\net8.0\ConsoleApp1-AdvanceC#.csproj.CoreCompileInputs.cache
+D:\RKIT - Training\Week-10-Backend-2\DemoRepo\Advance_API\ConsoleApp1-AdvanceC#\obj\Debug\net8.0\ConsoleApp1-AdvanceC#.sourcelink.json
+D:\RKIT - Training\Week-10-Backend-2\DemoRepo\Advance_API\ConsoleApp1-AdvanceC#\obj\Debug\net8.0\ConsoleApp1-AdvanceC#.dll
+D:\RKIT - Training\Week-10-Backend-2\DemoRepo\Advance_API\ConsoleApp1-AdvanceC#\obj\Debug\net8.0\refint\ConsoleApp1-AdvanceC#.dll
+D:\RKIT - Training\Week-10-Backend-2\DemoRepo\Advance_API\ConsoleApp1-AdvanceC#\obj\Debug\net8.0\ConsoleApp1-AdvanceC#.pdb
+D:\RKIT - Training\Week-10-Backend-2\DemoRepo\Advance_API\ConsoleApp1-AdvanceC#\obj\Debug\net8.0\ConsoleApp1-AdvanceC#.genruntimeconfig.cache
+D:\RKIT - Training\Week-10-Backend-2\DemoRepo\Advance_API\ConsoleApp1-AdvanceC#\obj\Debug\net8.0\ref\ConsoleApp1-AdvanceC#.dll
