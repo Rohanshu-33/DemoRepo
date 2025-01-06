@@ -1,0 +1,15 @@
+F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\obj\Debug\net6.0\ConsoleApp1-PC.csproj.AssemblyReference.cache
+F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\obj\Debug\net6.0\ConsoleApp1-PC.GeneratedMSBuildEditorConfig.editorconfig
+F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\obj\Debug\net6.0\ConsoleApp1-PC.AssemblyInfoInputs.cache
+F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\obj\Debug\net6.0\ConsoleApp1-PC.AssemblyInfo.cs
+F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\obj\Debug\net6.0\ConsoleApp1-PC.csproj.CoreCompileInputs.cache
+F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\bin\Debug\net6.0\ConsoleApp1-PC.exe
+F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\bin\Debug\net6.0\ConsoleApp1-PC.deps.json
+F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\bin\Debug\net6.0\ConsoleApp1-PC.runtimeconfig.json
+F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\bin\Debug\net6.0\ConsoleApp1-PC.dll
+F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\bin\Debug\net6.0\ConsoleApp1-PC.pdb
+F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\obj\Debug\net6.0\ConsoleApp1-PC.dll
+F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\obj\Debug\net6.0\refint\ConsoleApp1-PC.dll
+F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\obj\Debug\net6.0\ConsoleApp1-PC.pdb
+F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\obj\Debug\net6.0\ConsoleApp1-PC.genruntimeconfig.cache
+F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\obj\Debug\net6.0\ref\ConsoleApp1-PC.dll

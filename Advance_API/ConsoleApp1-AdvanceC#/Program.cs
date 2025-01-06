@@ -7,7 +7,8 @@ class Program
     {
         Console.WriteLine("Start of Main Program.\n");
         //Breakpoints.BreakPointsDemo();
-        ConditionalCompilation.ConditionalCompilationDemo();
+        //ConditionalCompilation.ConditionalCompilationDemo();
+        TypesOfClass.Display();
         Console.WriteLine("\nEnd of Main Program.");
     }
 }

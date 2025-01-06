@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Rohanshu\\DemoBackend-1\\Advance_API\\ConsoleApp1-AdvanceC#\\ConsoleApp1-AdvanceC#.csproj": {}
+    "F:\\Rohanshu\\DemoBackend-1\\Advance_API\\ConsoleApp1-PC\\ConsoleApp1-PC.csproj": {}
   },
   "projects": {
-    "F:\\Rohanshu\\DemoBackend-1\\Advance_API\\ConsoleApp1-AdvanceC#\\ConsoleApp1-AdvanceC#.csproj": {
+    "F:\\Rohanshu\\DemoBackend-1\\Advance_API\\ConsoleApp1-PC\\ConsoleApp1-PC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Rohanshu\\DemoBackend-1\\Advance_API\\ConsoleApp1-AdvanceC#\\ConsoleApp1-AdvanceC#.csproj",
-        "projectName": "ConsoleApp1-AdvanceC#",
-        "projectPath": "F:\\Rohanshu\\DemoBackend-1\\Advance_API\\ConsoleApp1-AdvanceC#\\ConsoleApp1-AdvanceC#.csproj",
+        "projectUniqueName": "F:\\Rohanshu\\DemoBackend-1\\Advance_API\\ConsoleApp1-PC\\ConsoleApp1-PC.csproj",
+        "projectName": "ConsoleApp1-PC",
+        "projectPath": "F:\\Rohanshu\\DemoBackend-1\\Advance_API\\ConsoleApp1-PC\\ConsoleApp1-PC.csproj",
         "packagesPath": "C:\\Users\\rohanshu.b\\.nuget\\packages\\",
-        "outputPath": "F:\\Rohanshu\\DemoBackend-1\\Advance_API\\ConsoleApp1-AdvanceC#\\obj\\",
+        "outputPath": "F:\\Rohanshu\\DemoBackend-1\\Advance_API\\ConsoleApp1-PC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rohanshu.b\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -50,6 +50,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
