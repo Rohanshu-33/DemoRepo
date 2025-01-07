@@ -10,19 +10,19 @@ using UserLibraryApi.Models;
 
 namespace UserLibraryApi.Controllers
 {
-    public class UserController : ApiController
+    public class UserV2Controller : ApiController
     {
-        internal static List<User> Users = new List<User>();
+        internal static List<UserV2> Users = new List<UserV2>();
 
         // user signup
         [HttpPost]
-        [Route("user/signup")]
-        public IHttpActionResult Signup([FromBody] User usr)
+        [Route("user/v2/signup")]
+        public IHttpActionResult Signup([FromBody] UserV2 usr)
         {
             try
             {
                 if (usr == null) return NotFound();
-                if (string.IsNullOrWhiteSpace(usr.Username) || usr.Password.Count() < 4) return BadRequest("Check credentials.");
+                if (string.IsNullOrWhiteSpace(usr.Username) || string.IsNullOrWhiteSpace(usr.Email) || usr.Password.Count() < 4) return BadRequest("Check credentials.");
                 if (Users.Any(u => u.Username == usr.Username)) return BadRequest("User already Exists.");
                 Users.Add(usr);
                 return Ok(new {Message = "Signup successful.", Signal="green"});
@@ -35,13 +35,13 @@ namespace UserLibraryApi.Controllers
 
         // user login
         [HttpPost]
-        [RouteAttribute("user/login")]
-        public IHttpActionResult Login([FromBody] User usr)
+        [RouteAttribute("user/v2/login")]
+        public IHttpActionResult Login([FromBody] UserV2 usr)
         {
             try
             {
                 if (usr == null) return NotFound();
-                if (string.IsNullOrWhiteSpace(usr.Username) || usr.Password.Count() < 4) return BadRequest("Check credentials.");
+                if (string.IsNullOrWhiteSpace(usr.Username) || string.IsNullOrWhiteSpace(usr.Email) || usr.Password.Count() < 4) return BadRequest("Check credentials.");
                 if (Users.Any(e=>e.Username==usr.Username))
                 {
                     string jwtToken = JWTHelper.GenerateToken(usr.Username);

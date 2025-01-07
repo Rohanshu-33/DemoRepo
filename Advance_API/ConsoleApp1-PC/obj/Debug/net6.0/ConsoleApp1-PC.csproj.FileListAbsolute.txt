@@ -13,3 +13,6 @@ F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\obj\Debug\net6.0\refint\Con
 F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\obj\Debug\net6.0\ConsoleApp1-PC.pdb
 F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\obj\Debug\net6.0\ConsoleApp1-PC.genruntimeconfig.cache
 F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\obj\Debug\net6.0\ref\ConsoleApp1-PC.dll
+F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\bin\Debug\net6.0\EmployeeDB.dll
+F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\bin\Debug\net6.0\EmployeeDB.pdb
+F:\Rohanshu\DemoBackend-1\Advance_API\ConsoleApp1-PC\obj\Debug\net6.0\ConsoleApp1-PC.csproj.CopyComplete

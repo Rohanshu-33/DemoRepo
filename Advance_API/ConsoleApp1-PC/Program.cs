@@ -1,7 +1,7 @@
 ﻿using System;
 using ConsoleApp1_AdvanceC_;
 using ConsoleApp1_PC;
-
+using EmployeeDB;
 class Program
 {
     static void Main(String[] args)
@@ -33,7 +33,9 @@ class Program
 
         //XMLSerializeDeserialize.XMLSerializeDeserializeDemo();
 
-        Lambdas.LambdasDemo();
+        //Lambdas.LambdasDemo();
+
+        ExtensionMethods.ExtensionMethodsDemo();
 
         Console.WriteLine("\nEnd of Main Program.");
     }

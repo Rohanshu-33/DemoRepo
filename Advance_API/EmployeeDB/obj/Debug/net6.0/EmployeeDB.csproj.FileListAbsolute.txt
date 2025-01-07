@@ -1,0 +1,12 @@
+F:\Rohanshu\DemoBackend-1\Advance_API\EmployeeDB\bin\Debug\net6.0\EmployeeDB.deps.json
+F:\Rohanshu\DemoBackend-1\Advance_API\EmployeeDB\bin\Debug\net6.0\EmployeeDB.dll
+F:\Rohanshu\DemoBackend-1\Advance_API\EmployeeDB\bin\Debug\net6.0\EmployeeDB.pdb
+F:\Rohanshu\DemoBackend-1\Advance_API\EmployeeDB\obj\Debug\net6.0\EmployeeDB.csproj.AssemblyReference.cache
+F:\Rohanshu\DemoBackend-1\Advance_API\EmployeeDB\obj\Debug\net6.0\EmployeeDB.GeneratedMSBuildEditorConfig.editorconfig
+F:\Rohanshu\DemoBackend-1\Advance_API\EmployeeDB\obj\Debug\net6.0\EmployeeDB.AssemblyInfoInputs.cache
+F:\Rohanshu\DemoBackend-1\Advance_API\EmployeeDB\obj\Debug\net6.0\EmployeeDB.AssemblyInfo.cs
+F:\Rohanshu\DemoBackend-1\Advance_API\EmployeeDB\obj\Debug\net6.0\EmployeeDB.csproj.CoreCompileInputs.cache
+F:\Rohanshu\DemoBackend-1\Advance_API\EmployeeDB\obj\Debug\net6.0\EmployeeDB.dll
+F:\Rohanshu\DemoBackend-1\Advance_API\EmployeeDB\obj\Debug\net6.0\refint\EmployeeDB.dll
+F:\Rohanshu\DemoBackend-1\Advance_API\EmployeeDB\obj\Debug\net6.0\EmployeeDB.pdb
+F:\Rohanshu\DemoBackend-1\Advance_API\EmployeeDB\obj\Debug\net6.0\ref\EmployeeDB.dll
