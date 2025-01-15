@@ -1,5 +1,6 @@
 ﻿using System;
 using ORMConsoleApp.Models;
+using ORMConsoleApp.Models.DTO;
 using ORMConsoleApp.Models.ENUM;
 
 namespace ORMConsoleApp.BL.Interface
@@ -15,7 +16,7 @@ namespace ORMConsoleApp.BL.Interface
         /// Validates the data before saving.
         /// </summary>
         /// <returns>A response indicating whether the validation was successful.</returns>
-        Response Validation();
+        Response Validation(DTOUSR01 usr);
 
         /// <summary>
         /// Saves the data.

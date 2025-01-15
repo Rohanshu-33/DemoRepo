@@ -1,5 +1,6 @@
 ﻿using System;
 using ORMConsoleApp.BL.Interface;
+using ORMConsoleApp.Extensions;
 using ORMConsoleApp.Models;
 using ORMConsoleApp.Models.DTO;
 using ORMConsoleApp.Models.ENUM;
@@ -32,8 +33,10 @@ namespace ORMConsoleApp.BL.Service
         /// performs validation whether user exists or not before updating user data.
         /// </summary>
         /// <returns>Response object indicating success or failure of validation.</returns>
-        public Response Validation()
+        public Response Validation(DTOUSR01 usr)
         {
+            _id = usr.P01F01;
+            _objUSR01 = usr.ConvertToPOCO();
             if (Type == EnmType.E)
             {
                 bool isUSR01 = IsUSR01Exists(_id);
@@ -41,6 +44,15 @@ namespace ORMConsoleApp.BL.Service
                 {
                     _objResponse.IsError = true;
                     _objResponse.Message = "User Not Found";
+                }
+            }
+            else if (Type == EnmType.A)
+            {
+                bool isUSR01 = IsUSR01Exists(_id);
+                if (isUSR01)
+                {
+                    _objResponse.IsError = true;
+                    _objResponse.Message = "User already exists.";
                 }
             }
             return _objResponse;
