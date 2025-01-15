@@ -7,7 +7,7 @@ class Program
     static void Main(String[] args)
     {
         Console.WriteLine("Start of Main Program.\n");
-        //Breakpoints.BreakPointsDemo();
+        Breakpoints.BreakPointsDemo();
         //ConditionalCompilation.ConditionalCompilationDemo();
 
         //Dummy1.Display();  // static class demo
@@ -35,7 +35,7 @@ class Program
 
         //Lambdas.LambdasDemo();
 
-        ExtensionMethods.ExtensionMethodsDemo();
+        //ExtensionMethods.ExtensionMethodsDemo();
 
         Console.WriteLine("\nEnd of Main Program.");
     }
