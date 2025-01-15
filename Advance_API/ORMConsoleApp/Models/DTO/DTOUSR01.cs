@@ -8,6 +8,9 @@ namespace ORMConsoleApp.Models.DTO
     /// <summary>
     /// Data Transfer Object for User.
     ///  </summary>
+    ///  
+    // these annotations are stored in the metadata of the class,
+    // specifically in the PropertyDescriptor for each property
     public class DTOUSR01
     {
         /// <summary>

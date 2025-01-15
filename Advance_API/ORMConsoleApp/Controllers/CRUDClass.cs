@@ -61,6 +61,17 @@ namespace ORMConsoleApp.Controllers
                 P01F05 = DateTime.Now
             };
 
+            // Validate the DTO
+            var validationResults = DTOValidateHelper.ValidateDTO(user);
+            if (validationResults.Count > 0)
+            {
+                foreach (var error in validationResults)
+                {
+                    Console.WriteLine($"Validation Error: {error}");
+                }
+                return; // Exit the method if validation fails
+            }
+
             _objBLUser.Type = EnmType.A;
             var response = _objBLUser.Validation(user);
             if (response.IsError == true)
@@ -90,6 +101,19 @@ namespace ORMConsoleApp.Controllers
                     P01F04 = GetIntInput("Enter user's new age: ", user.P01F04),
                     P01F05 = user.P01F05
                 };
+
+                // Validate the DTO
+                var validationResults = DTOValidateHelper.ValidateDTO(updatedUser);
+                if (validationResults.Count > 0)
+                {
+                    foreach (var error in validationResults)
+                    {
+                        Console.WriteLine($"Validation Error: {error}");
+                    }
+                    return; // Exit the method if validation fails
+                }
+
+
                 _objBLUser.Type = EnmType.E;
                 var response = _objBLUser.Validation(updatedUser);
                 if (response.IsError == true)
@@ -97,6 +121,7 @@ namespace ORMConsoleApp.Controllers
                     Console.WriteLine(response.Message);
                     return;
                 }
+
                 response = _objBLUser.Save();
                 Console.WriteLine($"Error: {response.IsError} Message: {response.Message}");
             }
